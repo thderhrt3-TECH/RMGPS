@@ -46,7 +46,7 @@ const GetInvolved = () => {
   return (
     <div className="get-involved-page">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20" data-testid="get-involved-hero">
+      <section className="bg-gradient-to-br from-gray-100 to-gray-200 text-gray-900 py-20" data-testid="get-involved-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Get Involved</h1>
           <p className="text-xl max-w-3xl mx-auto">
