@@ -18,8 +18,8 @@ function App() {
           <Link to="/" className="flex items-center space-x-3">
             <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-auto" />
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-gray-900">Rocky Mountain GPS</span>
-              <span className="text-sm text-gray-600">Global Peace & Sports Complex</span>
+              <span className="text-lg font-bold text-white">Rocky Mountain GPS</span>
+              <span className="text-sm text-gray-300">Global Peace & Sports Complex</span>
             </div>
           </Link>
           
