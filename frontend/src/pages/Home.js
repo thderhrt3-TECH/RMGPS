@@ -12,7 +12,7 @@ const Home = () => {
               <span className="block">Rocky Mountain Global Peace</span>
               <span className="block text-white">& Sports Complex</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
+            <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
               Our goal is to create a place of refuge where children develop compassion through sports, teamwork, and creativity.
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
