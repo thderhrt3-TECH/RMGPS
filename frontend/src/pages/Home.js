@@ -132,7 +132,7 @@ const Home = () => {
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
               <h3 className="text-xl font-bold text-white mb-2">Equestrian Center</h3>
-              <p className="text-gray-300">Nearby horseback riding facilities</p>
+              <p className="text-gray-300">Professional equestrian training and riding programs</p>
             </div>
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
