@@ -53,13 +53,13 @@ function App() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden pb-4" data-testid="mobile-menu">
-            <Link to="/" className="block py-2 text-gray-700 hover:text-black">Home</Link>
-            <Link to="/about" className="block py-2 text-gray-700 hover:text-black">About</Link>
-            <Link to="/programs" className="block py-2 text-gray-700 hover:text-black">Programs</Link>
-            <Link to="/get-involved" className="block py-2 text-gray-700 hover:text-black">Get Involved</Link>
-            <Link to="/news" className="block py-2 text-gray-700 hover:text-black">News</Link>
-            <Link to="/contact" className="block py-2 text-gray-700 hover:text-black">Contact</Link>
-            <Link to="/get-involved#donate" className="block mt-2 bg-black text-white px-6 py-2 rounded-full hover:bg-gray-900 text-center">
+            <Link to="/" className="block py-2 text-gray-300 hover:text-white">Home</Link>
+            <Link to="/about" className="block py-2 text-gray-300 hover:text-white">About</Link>
+            <Link to="/programs" className="block py-2 text-gray-300 hover:text-white">Programs</Link>
+            <Link to="/get-involved" className="block py-2 text-gray-300 hover:text-white">Get Involved</Link>
+            <Link to="/news" className="block py-2 text-gray-300 hover:text-white">News</Link>
+            <Link to="/contact" className="block py-2 text-gray-300 hover:text-white">Contact</Link>
+            <Link to="/get-involved#donate" className="block mt-2 bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 text-center">
               Donate Now
             </Link>
           </div>
