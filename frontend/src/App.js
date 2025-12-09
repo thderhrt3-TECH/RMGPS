@@ -40,7 +40,7 @@ function App() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-gray-700 hover:text-black"
+              className="text-gray-300 hover:text-white"
               data-testid="mobile-menu-button"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
