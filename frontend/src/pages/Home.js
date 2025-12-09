@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home-page" data-testid="home-page">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-50 to-gray-100 py-20" data-testid="hero-section">
+      <section className="relative bg-black text-white py-24" data-testid="hero-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-6xl md:text-7xl font-bold text-white mb-6">
