@@ -89,8 +89,6 @@ function App() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>854 N 50 W ALFALFA CIRCLE</li>
-              <li>MIDWAY, UTAH 84049</li>
               <li>INFO@ROCKYMOUNTAINGPS.ORG</li>
               <li>ROCKYMOUNTAINGPS.ORG</li>
               <li>801.360.4323</li>
