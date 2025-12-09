@@ -15,11 +15,11 @@ function App() {
     <nav className="bg-black border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
             <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-auto" />
-            <div className="flex flex-col">
-              <span className="text-lg font-bold text-white whitespace-nowrap">Rocky Mountain GPS</span>
-              <span className="text-sm text-gray-300 whitespace-nowrap">Global Peace & Sports Complex</span>
+            <div className="flex flex-col min-w-0">
+              <span className="text-lg font-bold text-white truncate">Rocky Mountain GPS</span>
+              <span className="text-sm text-gray-300 truncate">Global Peace & Sports Complex</span>
             </div>
           </Link>
           
