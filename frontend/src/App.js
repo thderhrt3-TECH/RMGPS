@@ -74,7 +74,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <img src="/logo.png" alt="Logo" className="h-16 w-auto mb-4" />
-            <h3 className="text-xl font-bold mb-4">RMGPS Complex</h3>
+            <h3 className="text-xl font-bold mb-4">Rocky Mountain GPS</h3>
             <p className="text-gray-400 text-sm">A Better Way to Build - A Better Way to Grow</p>
           </div>
           <div>
