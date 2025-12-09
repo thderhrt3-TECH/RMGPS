@@ -71,13 +71,14 @@ function App() {
   const Footer = () => (
     <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="md:col-span-1">
             <img src="/logo.png" alt="Logo" className="h-16 w-auto mb-4" />
             <h3 className="text-xl font-bold mb-4">Rocky Mountain GPS</h3>
             <p className="text-gray-400 text-sm">A Better Way to Build - A Better Way to Grow</p>
           </div>
-          <div>
+          
+          <div className="md:col-span-1">
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
@@ -86,21 +87,25 @@ function App() {
               <li><Link to="/news" className="text-gray-400 hover:text-white">News</Link></li>
             </ul>
           </div>
-          <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li className="break-all">INFO@ROCKYMOUNTAINGPS.ORG</li>
-              <li>801.360.4323</li>
-            </ul>
-          </div>
-          <div>
+          
+          <div className="md:col-span-1">
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">Facebook</a>
             </div>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+
+        {/* Contact Info in a single centered section */}
+        <div className="text-center border-t border-gray-800 pt-8 mb-8">
+          <h4 className="font-semibold mb-4 text-lg">Contact Information</h4>
+          <div className="space-y-3">
+            <p className="text-gray-400 text-lg">INFO@ROCKYMOUNTAINGPS.ORG</p>
+            <p className="text-gray-400 text-lg">801.360.4323</p>
+          </div>
+        </div>
+
+        <div className="text-center text-gray-400 border-t border-gray-800 pt-8">
           <p>&copy; 2025 Rocky Mountain Global Peace & Sports Complex. All rights reserved.</p>
           <p className="text-sm mt-3 max-w-4xl mx-auto">
             Rocky Mountain Global Peace & Sports Complex (Rocky Mountain GPS) is a registered nonprofit in the State of Utah, doing business under the auspices of <em>thunder</em>Heart, Inc. A 501(c)(3) non-for-profit that has been registered with the Internal Revenue Service (IRS) since 2005.
