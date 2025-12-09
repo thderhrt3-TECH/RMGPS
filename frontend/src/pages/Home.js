@@ -21,14 +21,14 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/get-involved#donate" 
-                className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-900 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 data-testid="hero-donate-button"
               >
                 Support Our Mission
               </Link>
               <Link 
                 to="/about" 
-                className="inline-block bg-white text-black border-2 border-black px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-50 transition-all shadow-lg"
+                className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white hover:text-black transition-all shadow-lg"
                 data-testid="hero-learn-more-button"
               >
                 Learn More
