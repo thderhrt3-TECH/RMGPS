@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-page">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20" data-testid="about-hero">
+      <section className="bg-gradient-to-br from-gray-100 to-gray-200 text-gray-900 py-20" data-testid="about-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">About Us</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -31,11 +31,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1659869590085-57efda46f48e" 
-                alt="Sports Complex"
-                className="rounded-lg shadow-xl"
-              />
+              <div className="bg-gradient-to-br from-gray-100 to-gray-200 h-96 rounded-lg"></div>
             </div>
           </div>
         </div>
@@ -46,20 +42,20 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12">Our Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md" data-testid="value-compassion">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">Compassion</h3>
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-black" data-testid="value-compassion">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Compassion</h3>
               <p className="text-gray-700">We teach children to understand and care for others, building empathy that transcends boundaries.</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md" data-testid="value-excellence">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">Excellence</h3>
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-black" data-testid="value-excellence">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Excellence</h3>
               <p className="text-gray-700">We provide world-class facilities and coaching to help every child reach their full potential.</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md" data-testid="value-unity">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">Unity</h3>
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-black" data-testid="value-unity">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Unity</h3>
               <p className="text-gray-700">We bring together children from diverse backgrounds, fostering understanding and friendship.</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md" data-testid="value-growth">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">Growth</h3>
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-black" data-testid="value-growth">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Growth</h3>
               <p className="text-gray-700">We nurture not just athletic skills, but character development and life lessons.</p>
             </div>
           </div>
@@ -94,7 +90,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white" data-testid="cta-section">
+      <section className="py-20 bg-black text-white" data-testid="cta-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Join Us in Making a Difference</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -102,7 +98,7 @@ const About = () => {
           </p>
           <Link 
             to="/get-involved" 
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
+            className="inline-block bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
             data-testid="get-involved-cta-button"
           >
             Get Involved Today
