@@ -154,6 +154,34 @@ async def submit_partner(input: PartnerCreate):
     _ = await db.partners.insert_one(doc)
     return partner_obj
 
+class ContactSubmission(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str
+    email: str
+    phone: Optional[str] = ""
+    message: str
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class ContactCreate(BaseModel):
+    name: str
+    email: str
+    phone: Optional[str] = ""
+    message: str
+
+@api_router.post("/contact", response_model=ContactSubmission)
+async def submit_contact(input: ContactCreate):
+    contact_dict = input.model_dump()
+    contact_obj = ContactSubmission(**contact_dict)
+    
+    # Convert to dict and serialize datetime to ISO string for MongoDB
+    doc = contact_obj.model_dump()
+    doc['timestamp'] = doc['timestamp'].isoformat()
+    
+    _ = await db.contacts.insert_one(doc)
+    return contact_obj
+
 # Include the router in the main app
 app.include_router(api_router)
 
