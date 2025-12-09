@@ -96,7 +96,7 @@ const GetInvolved = () => {
                   required
                   value={donateForm.email}
                   onChange={(e) => setDonateForm({...donateForm, email: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="donate-email-input"
                 />
               </div>
@@ -109,7 +109,7 @@ const GetInvolved = () => {
                 value={donateForm.amount}
                 onChange={(e) => setDonateForm({...donateForm, amount: e.target.value})}
                 placeholder="$100"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="donate-amount-input"
               />
             </div>
@@ -119,13 +119,13 @@ const GetInvolved = () => {
                 value={donateForm.message}
                 onChange={(e) => setDonateForm({...donateForm, message: e.target.value})}
                 rows="4"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="donate-message-input"
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+              className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition"
               data-testid="donate-submit-button"
             >
               Submit Donation
@@ -153,7 +153,7 @@ const GetInvolved = () => {
                   required
                   value={volunteerForm.name}
                   onChange={(e) => setVolunteerForm({...volunteerForm, name: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="volunteer-name-input"
                 />
               </div>
@@ -164,7 +164,7 @@ const GetInvolved = () => {
                   required
                   value={volunteerForm.email}
                   onChange={(e) => setVolunteerForm({...volunteerForm, email: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="volunteer-email-input"
                 />
               </div>
@@ -176,7 +176,7 @@ const GetInvolved = () => {
                 required
                 value={volunteerForm.phone}
                 onChange={(e) => setVolunteerForm({...volunteerForm, phone: e.target.value})}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="volunteer-phone-input"
               />
             </div>
@@ -188,7 +188,7 @@ const GetInvolved = () => {
                 onChange={(e) => setVolunteerForm({...volunteerForm, interests: e.target.value})}
                 rows="3"
                 placeholder="Coaching, mentoring, administration, facilities, etc."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="volunteer-interests-input"
               />
             </div>
@@ -200,13 +200,13 @@ const GetInvolved = () => {
                 value={volunteerForm.availability}
                 onChange={(e) => setVolunteerForm({...volunteerForm, availability: e.target.value})}
                 placeholder="Weekdays, weekends, evenings, etc."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="volunteer-availability-input"
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition"
               data-testid="volunteer-submit-button"
             >
               Submit Volunteer Application
@@ -234,7 +234,7 @@ const GetInvolved = () => {
                   required
                   value={partnerForm.organization}
                   onChange={(e) => setPartnerForm({...partnerForm, organization: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="partner-organization-input"
                 />
               </div>
@@ -245,7 +245,7 @@ const GetInvolved = () => {
                   required
                   value={partnerForm.contact}
                   onChange={(e) => setPartnerForm({...partnerForm, contact: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="partner-contact-input"
                 />
               </div>
@@ -258,7 +258,7 @@ const GetInvolved = () => {
                   required
                   value={partnerForm.email}
                   onChange={(e) => setPartnerForm({...partnerForm, email: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="partner-email-input"
                 />
               </div>
@@ -269,7 +269,7 @@ const GetInvolved = () => {
                   required
                   value={partnerForm.phone}
                   onChange={(e) => setPartnerForm({...partnerForm, phone: e.target.value})}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                   data-testid="partner-phone-input"
                 />
               </div>
@@ -282,13 +282,13 @@ const GetInvolved = () => {
                 onChange={(e) => setPartnerForm({...partnerForm, message: e.target.value})}
                 rows="4"
                 placeholder="How would you like to partner with us?"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 data-testid="partner-message-input"
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition"
+              className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition"
               data-testid="partner-submit-button"
             >
               Submit Partnership Inquiry
