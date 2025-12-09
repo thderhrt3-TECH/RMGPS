@@ -16,7 +16,7 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-12" />
+            <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-auto" />
             <div className="flex flex-col">
               <span className="text-lg font-bold text-gray-900">Rocky Mountain GPS</span>
               <span className="text-sm text-gray-600">Global Peace & Sports Complex</span>
