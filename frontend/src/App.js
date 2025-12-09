@@ -89,7 +89,7 @@ function App() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>INFO@ROCKYMOUNTAINGPS.ORG</li>
+              <li className="break-all">INFO@ROCKYMOUNTAINGPS.ORG</li>
               <li>801.360.4323</li>
             </ul>
           </div>
