@@ -44,12 +44,12 @@ const Contact = () => {
                   <p className="text-gray-600">Rocky Mountain Global Peace & Sports Complex<br />Heber Valley, Utah</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-                  <p className="text-gray-600">info@rmgpscomplex.org</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">Website</h3>
+                  <p className="text-gray-600">ROCKYMOUNTAINGPS.ORG</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">801.360.4323</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Hours</h3>
