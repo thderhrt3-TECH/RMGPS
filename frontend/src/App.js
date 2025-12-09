@@ -103,6 +103,7 @@ function App() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>&copy; 2025 Rocky Mountain Global Peace & Sports Complex. All rights reserved.</p>
+          <p className="text-xs mt-2">ROCKYMOUNTAINGPS.ORG | 801.360.4323</p>
           <a href="https://app.emergent.sh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-sm text-gray-500 hover:text-gray-300">
             <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" alt="Emergent" className="h-5 w-5 mr-2" />
             Made with Emergent
