@@ -41,7 +41,11 @@ const Contact = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Address</h3>
-                  <p className="text-gray-600">Rocky Mountain Global Peace & Sports Complex<br />Heber Valley, Utah</p>
+                  <p className="text-gray-600">854 N 50 W ALFALFA CIRCLE<br />MIDWAY, UTAH 84049</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
+                  <p className="text-gray-600">INFO@ROCKYMOUNTAINGPS.ORG</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Website</h3>
