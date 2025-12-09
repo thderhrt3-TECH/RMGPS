@@ -8,9 +8,9 @@ const Home = () => {
       <section className="relative bg-gradient-to-br from-gray-50 to-gray-100 py-20" data-testid="hero-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-6xl md:text-7xl font-bold text-white mb-6">
               <span className="block">Rocky Mountain Global Peace</span>
-              <span className="block text-black">& Sports Complex</span>
+              <span className="block text-white">& Sports Complex</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
               Our goal is to create a place of refuge where children develop compassion through sports, teamwork, and creativity.
