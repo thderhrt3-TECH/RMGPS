@@ -88,7 +88,7 @@ const Programs = () => {
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-equestrian">
               <h3 className="text-2xl font-bold text-white mb-4">Equestrian</h3>
               <p className="text-gray-300 mb-4">
-                Horseback riding programs connecting children with nature and building confidence.
+                Professional equestrian training and riding programs connecting children with nature and building confidence.
               </p>
               <ul className="text-gray-300 space-y-2">
                 <li>• Beginner Riding Lessons</li>
