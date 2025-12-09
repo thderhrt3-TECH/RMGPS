@@ -25,13 +25,13 @@ function App() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-gray-700 hover:text-black font-medium">Home</Link>
-            <Link to="/about" className="text-gray-700 hover:text-black font-medium">About</Link>
-            <Link to="/programs" className="text-gray-700 hover:text-black font-medium">Programs</Link>
-            <Link to="/get-involved" className="text-gray-700 hover:text-black font-medium">Get Involved</Link>
-            <Link to="/news" className="text-gray-700 hover:text-black font-medium">News</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-black font-medium">Contact</Link>
-            <Link to="/get-involved#donate" className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-900 font-medium" data-testid="donate-now-button">
+            <Link to="/" className="text-gray-300 hover:text-white font-medium">Home</Link>
+            <Link to="/about" className="text-gray-300 hover:text-white font-medium">About</Link>
+            <Link to="/programs" className="text-gray-300 hover:text-white font-medium">Programs</Link>
+            <Link to="/get-involved" className="text-gray-300 hover:text-white font-medium">Get Involved</Link>
+            <Link to="/news" className="text-gray-300 hover:text-white font-medium">News</Link>
+            <Link to="/contact" className="text-gray-300 hover:text-white font-medium">Contact</Link>
+            <Link to="/get-involved#donate" className="bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 font-medium" data-testid="donate-now-button">
               Donate Now
             </Link>
           </div>
