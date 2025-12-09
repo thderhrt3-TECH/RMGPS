@@ -6,7 +6,7 @@ import os
 import logging
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
-from typing import List
+from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
 
@@ -28,7 +28,7 @@ api_router = APIRouter(prefix="/api")
 
 # Define Models
 class StatusCheck(BaseModel):
-    model_config = ConfigDict(extra="ignore")  # Ignore MongoDB's _id field
+    model_config = ConfigDict(extra="ignore")
     
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     client_name: str
@@ -37,10 +37,62 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+class DonationSubmission(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str
+    email: str
+    amount: str
+    message: Optional[str] = ""
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class DonationCreate(BaseModel):
+    name: str
+    email: str
+    amount: str
+    message: Optional[str] = ""
+
+class VolunteerSubmission(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str
+    email: str
+    phone: str
+    interests: str
+    availability: str
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class VolunteerCreate(BaseModel):
+    name: str
+    email: str
+    phone: str
+    interests: str
+    availability: str
+
+class PartnerSubmission(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    organization: str
+    contact: str
+    email: str
+    phone: str
+    message: str
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class PartnerCreate(BaseModel):
+    organization: str
+    contact: str
+    email: str
+    phone: str
+    message: str
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Welcome to Rocky Mountain Global Peace & Sports Complex API"}
 
 @api_router.post("/status", response_model=StatusCheck)
 async def create_status_check(input: StatusCheckCreate):
@@ -65,6 +117,42 @@ async def get_status_checks():
             check['timestamp'] = datetime.fromisoformat(check['timestamp'])
     
     return status_checks
+
+@api_router.post("/donate", response_model=DonationSubmission)
+async def submit_donation(input: DonationCreate):
+    donation_dict = input.model_dump()
+    donation_obj = DonationSubmission(**donation_dict)
+    
+    # Convert to dict and serialize datetime to ISO string for MongoDB
+    doc = donation_obj.model_dump()
+    doc['timestamp'] = doc['timestamp'].isoformat()
+    
+    _ = await db.donations.insert_one(doc)
+    return donation_obj
+
+@api_router.post("/volunteer", response_model=VolunteerSubmission)
+async def submit_volunteer(input: VolunteerCreate):
+    volunteer_dict = input.model_dump()
+    volunteer_obj = VolunteerSubmission(**volunteer_dict)
+    
+    # Convert to dict and serialize datetime to ISO string for MongoDB
+    doc = volunteer_obj.model_dump()
+    doc['timestamp'] = doc['timestamp'].isoformat()
+    
+    _ = await db.volunteers.insert_one(doc)
+    return volunteer_obj
+
+@api_router.post("/partner", response_model=PartnerSubmission)
+async def submit_partner(input: PartnerCreate):
+    partner_dict = input.model_dump()
+    partner_obj = PartnerSubmission(**partner_dict)
+    
+    # Convert to dict and serialize datetime to ISO string for MongoDB
+    doc = partner_obj.model_dump()
+    doc['timestamp'] = doc['timestamp'].isoformat()
+    
+    _ = await db.partners.insert_one(doc)
+    return partner_obj
 
 # Include the router in the main app
 app.include_router(api_router)
