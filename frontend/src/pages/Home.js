@@ -71,13 +71,16 @@ const Home = () => {
           <p className="text-xl text-gray-700 mb-4">
             At the <strong>Rocky Mountain Global Peace & Sports Complex</strong>, we believe in the transformative power of two universal languages: <strong>sport and music</strong>.
           </p>
-          <p className="text-lg text-gray-600 mb-8">
-            We don't just believe in change—we build it. <strong>We've got greatness to build</strong>—and with your help, we believe we can assure a better world for all.
+          <p className="text-lg text-gray-600 mb-4">
+            We don't just believe in change—we build it. 
+          </p>
+          <p className="text-2xl font-bold text-gray-900 mb-8">
+            We've got greatness to build
           </p>
           
           <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-black text-left">
             <p className="text-gray-700 italic mb-4">
-              "Sport has the power to change the world. It has the power to inspire. It has the power to unite people in a way that little else does. It speaks to youth in a language they understand. Sport can create hope where once there was only despair."
+              "Sport has the power to change the world"
             </p>
             <p className="text-right text-black font-semibold">— Nelson Mandela</p>
           </div>

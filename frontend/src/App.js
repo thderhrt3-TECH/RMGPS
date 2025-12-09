@@ -69,7 +69,7 @@ function App() {
   );
 
   const Footer = () => (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -98,8 +98,6 @@ function App() {
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">Facebook</a>
-              <a href="#" className="text-gray-400 hover:text-white">Twitter</a>
-              <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
             </div>
           </div>
         </div>
