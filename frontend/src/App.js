@@ -98,10 +98,10 @@ function App() {
         {/* Contact Info in a single centered section */}
         <div className="text-center border-t border-gray-800 pt-8 mb-8">
           <h4 className="font-semibold mb-4 text-lg">Contact Information</h4>
-          <div className="space-y-3">
-            <p className="text-gray-400 text-lg">INFO@ROCKYMOUNTAINGPS.ORG</p>
-            <p className="text-gray-400 text-lg">801.360.4323</p>
-            <p className="text-gray-400 text-lg">854 N 50 W ALFALFA CIRCLE<br />MIDWAY, UTAH 84049</p>
+          <div className="space-y-2">
+            <p className="text-gray-400">854 N 50 W Alfalfa Circle, Midway, Utah 84049</p>
+            <p className="text-gray-400">INFO@ROCKYMOUNTAINGPS.ORG</p>
+            <p className="text-gray-400">801.360.4323</p>
           </div>
         </div>
 
