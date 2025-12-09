@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Programs from './pages/Programs';
 import GetInvolved from './pages/GetInvolved';
+import News from './pages/News';
+import Contact from './pages/Contact';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,21 +14,25 @@ function App() {
   const Navigation = () => (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-black">
-              RMGPS Complex
-            </Link>
-          </div>
+        <div className="flex justify-between items-center h-20">
+          <Link to="/" className="flex items-center space-x-3">
+            <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-12" />
+            <div className="flex flex-col">
+              <span className="text-sm font-bold text-gray-900">Rocky Mountain GPS</span>
+              <span className="text-xs text-gray-600">Global Peace & Sports Complex</span>
+            </div>
+          </Link>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-gray-700 hover:text-black font-medium">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-black font-medium">About</Link>
             <Link to="/programs" className="text-gray-700 hover:text-black font-medium">Programs</Link>
             <Link to="/get-involved" className="text-gray-700 hover:text-black font-medium">Get Involved</Link>
-            <Link to="/get-involved#donate" className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-900 font-medium">
-              Donate
+            <Link to="/news" className="text-gray-700 hover:text-black font-medium">News</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-black font-medium">Contact</Link>
+            <Link to="/get-involved#donate" className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-900 font-medium" data-testid="donate-now-button">
+              Donate Now
             </Link>
           </div>
 
@@ -51,8 +57,10 @@ function App() {
             <Link to="/about" className="block py-2 text-gray-700 hover:text-black">About</Link>
             <Link to="/programs" className="block py-2 text-gray-700 hover:text-black">Programs</Link>
             <Link to="/get-involved" className="block py-2 text-gray-700 hover:text-black">Get Involved</Link>
+            <Link to="/news" className="block py-2 text-gray-700 hover:text-black">News</Link>
+            <Link to="/contact" className="block py-2 text-gray-700 hover:text-black">Contact</Link>
             <Link to="/get-involved#donate" className="block mt-2 bg-black text-white px-6 py-2 rounded-full hover:bg-gray-900 text-center">
-              Donate
+              Donate Now
             </Link>
           </div>
         )}
@@ -65,8 +73,9 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
+            <img src="/logo.png" alt="Logo" className="h-16 w-16 mb-4" />
             <h3 className="text-xl font-bold mb-4">RMGPS Complex</h3>
-            <p className="text-gray-400">Building a brighter future through sports and education.</p>
+            <p className="text-gray-400 text-sm">A Better Way to Build - A Better Way to Grow</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
@@ -74,6 +83,7 @@ function App() {
               <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
               <li><Link to="/programs" className="text-gray-400 hover:text-white">Programs</Link></li>
               <li><Link to="/get-involved" className="text-gray-400 hover:text-white">Get Involved</Link></li>
+              <li><Link to="/news" className="text-gray-400 hover:text-white">News</Link></li>
             </ul>
           </div>
           <div>
@@ -114,6 +124,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/programs" element={<Programs />} />
             <Route path="/get-involved" element={<GetInvolved />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
