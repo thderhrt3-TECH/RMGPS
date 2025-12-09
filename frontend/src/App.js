@@ -19,7 +19,6 @@ function App() {
             <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-auto" />
             <div className="flex flex-col min-w-0">
               <span className="text-lg font-bold text-white truncate">Rocky Mountain GPS</span>
-              <span className="text-sm text-gray-300 truncate">Global Peace & Sports Complex</span>
             </div>
           </Link>
           
