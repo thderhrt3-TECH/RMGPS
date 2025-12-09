@@ -73,7 +73,7 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src="/logo.png" alt="Logo" className="h-16 w-16 mb-4" />
+            <img src="/logo.png" alt="Logo" className="h-16 w-auto mb-4" />
             <h3 className="text-xl font-bold mb-4">RMGPS Complex</h3>
             <p className="text-gray-400 text-sm">A Better Way to Build - A Better Way to Grow</p>
           </div>
