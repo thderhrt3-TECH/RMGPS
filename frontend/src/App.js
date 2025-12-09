@@ -102,6 +102,7 @@ function App() {
           <div className="space-y-3">
             <p className="text-gray-400 text-lg">INFO@ROCKYMOUNTAINGPS.ORG</p>
             <p className="text-gray-400 text-lg">801.360.4323</p>
+            <p className="text-gray-400 text-lg">854 N 50 W ALFALFA CIRCLE<br />MIDWAY, UTAH 84049</p>
           </div>
         </div>
 
