@@ -100,7 +100,7 @@ function App() {
           <h4 className="font-semibold mb-4 text-lg">Contact Information</h4>
           <div className="space-y-2">
             <p className="text-gray-400">854 N 50 W Alfalfa Circle, Midway, Utah 84049</p>
-            <p className="text-gray-400">INFO@ROCKYMOUNTAINGPS.ORG</p>
+            <p className="text-gray-400">info@rockymountaingps.org</p>
             <p className="text-gray-400">801.360.4323</p>
           </div>
         </div>
