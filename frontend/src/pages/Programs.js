@@ -78,8 +78,8 @@ const Programs = () => {
                 Full-field facilities for youth football leagues and training programs.
               </p>
               <ul className="text-gray-300 space-y-2">
-                <li>• Flag Football (Ages 5-12)</li>
-                <li>• Tackle Football (Ages 10+)</li>
+                <li>• Flag Football (Ages TBD)</li>
+                <li>• Tackle Football (Ages TBD)</li>
                 <li>• Skills Development</li>
                 <li>• Team Camps</li>
               </ul>
