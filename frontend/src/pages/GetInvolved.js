@@ -48,7 +48,7 @@ const GetInvolved = () => {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20" data-testid="get-involved-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">Get Involved</h1>
+          <h1 className="text-5xl font-bold mb-6 text-red-600">Get Involved</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Join us in creating opportunities that transform lives and build a better world for children
           </p>
@@ -70,7 +70,7 @@ const GetInvolved = () => {
       <section id="donate" className="py-20 bg-black" data-testid="donate-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-white">Make a Donation</h2>
+            <h2 className="text-4xl font-bold mb-4 text-red-600">Make a Donation</h2>
             <p className="text-xl text-gray-300">
               Your generous contribution helps us provide world-class facilities and programs to children from all backgrounds.
             </p>
@@ -138,7 +138,7 @@ const GetInvolved = () => {
       <section id="volunteer" className="py-20 bg-gray-900" data-testid="volunteer-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-white">Become a Volunteer</h2>
+            <h2 className="text-4xl font-bold mb-4 text-red-600">Become a Volunteer</h2>
             <p className="text-xl text-gray-300">
               Share your time and talents to make a direct impact on children's lives.
             </p>
@@ -219,7 +219,7 @@ const GetInvolved = () => {
       <section id="partner" className="py-20 bg-black" data-testid="partner-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-white">Become a Partner</h2>
+            <h2 className="text-4xl font-bold mb-4 text-red-600">Become a Partner</h2>
             <p className="text-xl text-gray-300">
               Join us as a corporate or community partner to amplify our impact.
             </p>
