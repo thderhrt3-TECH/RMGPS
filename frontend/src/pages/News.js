@@ -50,7 +50,7 @@ const News = () => {
                 <div className="text-sm text-gray-400 mb-2">October 2025</div>
                 <h3 className="text-xl font-bold text-red-600 mb-3">Community Partnership</h3>
                 <p className="text-gray-300 mb-4">
-                  Local businesses join forces with <span className="text-red-600">RMGPS Complex</span> to support youth development in Heber Valley.
+                  Local businesses join forces with <span className="text-red-600 italic">RMGPS Complex</span> to support youth development in Heber Valley.
                 </p>
                 <a href="#" className="text-white font-semibold hover:underline">Read More →</a>
               </div>

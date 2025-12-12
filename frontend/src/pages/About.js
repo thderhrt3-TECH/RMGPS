@@ -21,7 +21,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-red-600">Our Story</h2>
               <p className="text-lg text-gray-300 mb-4">
-                The <span className="text-red-600">Rocky Mountain Global Peace & Sports Complex</span> was founded with a vision to create a sanctuary where children from all backgrounds can come together, learn, and grow through the universal language of sports.
+                The <span className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex</span> was founded with a vision to create a sanctuary where children from all backgrounds can come together, learn, and grow through the universal language of sports.
               </p>
               <p className="text-lg text-gray-300 mb-4">
                 Located in the beautiful Heber Valley, our state-of-the-art facility provides world-class training opportunities while fostering compassion, teamwork, and leadership skills that extend far beyond the playing field.
