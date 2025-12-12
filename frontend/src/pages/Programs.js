@@ -39,7 +39,7 @@ const Programs = () => {
                 Professional-grade basketball courts hosting leagues, camps, and individual skill development.
               </p>
               <ul className="text-gray-300 space-y-2">
-                <li>• Youth Leagues (Ages 6-18)</li>
+                <li>• Youth Leagues (Ages TBD)</li>
                 <li>• Skills Clinics</li>
                 <li>• Tournament Hosting</li>
                 <li>• Personal Training</li>
