@@ -110,7 +110,7 @@ function App() {
           <p className="text-sm mt-3 max-w-4xl mx-auto">
             <span className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex (Rocky Mountain GPS)</span> is a registered nonprofit in the State of Utah, doing business under the auspices of <em>thunder</em>Heart, Inc. A 501(c)(3) non-for-profit that has been registered with the Internal Revenue Service (IRS) since 2005.
           </p>
-          <p className="text-xs mt-2 italic">ROCKYMOUNTAINGPS.ORG</p>
+          <p className="text-xs mt-2 text-red-600 italic">ROCKYMOUNTAINGPS.ORG</p>
           <a href="https://app.emergent.sh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-sm text-gray-500 hover:text-gray-300">
             <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" alt="Emergent" className="h-5 w-5 mr-2" />
             Made with Emergent
