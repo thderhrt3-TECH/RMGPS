@@ -9,8 +9,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-6xl md:text-7xl font-bold text-red-600 mb-6">
-              <span className="block">Rocky Mountain Global Peace</span>
-              <span className="block text-red-600">& Sports Complex</span>
+              <span className="block italic">Rocky Mountain Global Peace</span>
+              <span className="block text-red-600 italic">& Sports Complex</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
               Our goal is to create a place of refuge where children develop compassion through sports, teamwork, and creativity.
@@ -69,7 +69,7 @@ const Home = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-red-600 mb-6">The Languages of Change</h2>
           <p className="text-xl text-gray-300 mb-4">
-            At the <strong className="text-red-600">Rocky Mountain Global Peace & Sports Complex</strong>, we believe in the transformative power of two universal languages: <strong>sport and music</strong>.
+            At the <strong className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex</strong>, we believe in the transformative power of two universal languages: <strong>sport and music</strong>.
           </p>
           <p className="text-lg text-gray-400 mb-4">
             We don't just believe in change—we build it. 
