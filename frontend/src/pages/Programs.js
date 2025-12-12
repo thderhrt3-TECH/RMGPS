@@ -162,13 +162,13 @@ const Programs = () => {
         </div>
       </section>
 
-      {/* Summer Camps Section */}
+      {/* TBD Section */}
       <section className="py-20 bg-black" data-testid="summer-camps">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Summer Camps</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">TBD</h2>
           <div className="bg-gray-900 p-12 rounded-lg border-2 border-gray-700">
             <p className="text-xl text-center text-gray-300 mb-8">
-              Our comprehensive summer camp programs offer children unforgettable experiences combining sports, education, and adventure in the beautiful Heber Valley.
+              Our comprehensive programs offer children unforgettable experiences combining sports, education, and adventure in the beautiful Heber Valley.
             </p>
             <div className="text-center">
               <Link 
@@ -176,7 +176,7 @@ const Programs = () => {
                 className="inline-block bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
                 data-testid="register-camps-button"
               >
-                Register for Summer Camps
+                Register for Programs
               </Link>
             </div>
           </div>
