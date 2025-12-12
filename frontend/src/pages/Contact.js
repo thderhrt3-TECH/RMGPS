@@ -24,7 +24,7 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20" data-testid="contact-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
+          <h1 className="text-5xl font-bold mb-6 text-red-600">Contact Us</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
@@ -37,26 +37,26 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-white">Get in Touch</h2>
+              <h2 className="text-3xl font-bold mb-6 text-red-600">Get in Touch</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Address</h3>
-                  <p className="text-gray-300">854 N 50 W ALFALFA CIRCLE<br />MIDWAY, UTAH 84049</p>
+                  <h3 className="font-semibold text-red-600 mb-2">Address</h3>
+                  <p className="text-gray-300">854 N 50 W Alfalfa Circle<br />Midway, Utah 84049</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Email</h3>
+                  <h3 className="font-semibold text-red-600 mb-2">Email</h3>
                   <p className="text-gray-300">info@rockymountaingps.org</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Website</h3>
+                  <h3 className="font-semibold text-red-600 mb-2">Website</h3>
                   <p className="text-gray-300">ROCKYMOUNTAINGPS.ORG</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Phone</h3>
+                  <h3 className="font-semibold text-red-600 mb-2">Phone</h3>
                   <p className="text-gray-300">801.360.4323</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Hours</h3>
+                  <h3 className="font-semibold text-red-600 mb-2">Hours</h3>
                   <p className="text-gray-300">Monday - Friday: 9:00 AM - 5:00 PM<br />Saturday: 10:00 AM - 3:00 PM<br />Sunday: Closed</p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-white">Send a Message</h2>
+              <h2 className="text-3xl font-bold mb-6 text-red-600">Send a Message</h2>
               
               {submitStatus.message && (
                 <div className={`mb-6 p-4 rounded-lg ${
