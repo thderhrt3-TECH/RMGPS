@@ -7,7 +7,7 @@ const Programs = () => {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20" data-testid="programs-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">Our Programs</h1>
+          <h1 className="text-5xl font-bold mb-6 text-red-600">Our Programs</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Comprehensive programs designed to develop athletic skills, character, and leadership
           </p>
@@ -17,11 +17,11 @@ const Programs = () => {
       {/* Sports Programs Section */}
       <section className="py-20 bg-black" data-testid="sports-programs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Sports Programs</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Sports Programs</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-ice-hockey">
-              <h3 className="text-2xl font-bold text-white mb-4">Ice Hockey</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Ice Hockey</h3>
               <p className="text-gray-300 mb-4">
                 Year-round hockey programs for all skill levels, featuring NHL-sized ice sheets and professional coaching.
               </p>
@@ -34,7 +34,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-basketball">
-              <h3 className="text-2xl font-bold text-white mb-4">Basketball</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Basketball</h3>
               <p className="text-gray-300 mb-4">
                 Professional-grade basketball courts hosting leagues, camps, and individual skill development.
               </p>
@@ -47,7 +47,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-soccer">
-              <h3 className="text-2xl font-bold text-white mb-4">Soccer</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Soccer</h3>
               <p className="text-gray-300 mb-4">
                 Multi-sport field accommodating soccer programs for recreational and competitive players.
               </p>
@@ -60,7 +60,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-baseball">
-              <h3 className="text-2xl font-bold text-white mb-4">Baseball/Softball</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Baseball/Softball</h3>
               <p className="text-gray-300 mb-4">
                 Spring and summer leagues with dedicated fields and batting facilities.
               </p>
@@ -73,7 +73,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-football">
-              <h3 className="text-2xl font-bold text-white mb-4">Football</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Football</h3>
               <p className="text-gray-300 mb-4">
                 Full-field facilities for youth football leagues and training programs.
               </p>
@@ -86,7 +86,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-equestrian">
-              <h3 className="text-2xl font-bold text-white mb-4">Equestrian</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Equestrian</h3>
               <p className="text-gray-300 mb-4">
                 Professional equestrian training and riding programs connecting children with nature and building confidence.
               </p>
@@ -104,11 +104,11 @@ const Programs = () => {
       {/* Educational Programs Section */}
       <section className="py-20 bg-gray-900" data-testid="educational-programs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Educational Programs</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Educational Programs</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-black p-8 rounded-lg shadow-md border-l-4 border-white" data-testid="program-charter-school">
-              <h3 className="text-2xl font-bold text-white mb-4">Charter School</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Charter School</h3>
               <p className="text-gray-300 mb-4">
                 Integrated academic programs that combine traditional education with athletic development.
               </p>
@@ -121,7 +121,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-black p-8 rounded-lg shadow-md border-l-4 border-white" data-testid="program-mentorship">
-              <h3 className="text-2xl font-bold text-white mb-4">Mentorship Programs</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Mentorship Programs</h3>
               <p className="text-gray-300 mb-4">
                 Connecting children with positive role models and mentors from diverse backgrounds.
               </p>
@@ -134,7 +134,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-black p-8 rounded-lg shadow-md border-l-4 border-white" data-testid="program-environmental">
-              <h3 className="text-2xl font-bold text-white mb-4">Environmental Stewardship</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Environmental Stewardship</h3>
               <p className="text-gray-300 mb-4">
                 Outdoor education programs teaching children about nature and environmental responsibility.
               </p>
@@ -147,7 +147,7 @@ const Programs = () => {
             </div>
 
             <div className="bg-black p-8 rounded-lg shadow-md border-l-4 border-white" data-testid="program-music">
-              <h3 className="text-2xl font-bold text-white mb-4">Music & Arts</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Music & Arts</h3>
               <p className="text-gray-300 mb-4">
                 Creative programs that complement athletic development through music and artistic expression.
               </p>
@@ -165,7 +165,7 @@ const Programs = () => {
       {/* Summer Camps Section */}
       <section className="py-20 bg-black" data-testid="summer-camps">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Summer Camps</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Summer Camps</h2>
           <div className="bg-gray-900 p-12 rounded-lg border-2 border-gray-700">
             <p className="text-xl text-center text-gray-300 mb-8">
               Our comprehensive summer camp programs offer children unforgettable experiences combining sports, education, and adventure in the beautiful Heber Valley.
@@ -186,7 +186,7 @@ const Programs = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gray-900 text-white" data-testid="programs-cta">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Join?</h2>
+          <h2 className="text-4xl font-bold mb-6 text-red-600">Ready to Join?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Explore our programs and find the perfect fit for your child's interests and goals.
           </p>
