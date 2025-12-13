@@ -102,7 +102,31 @@ const Programs = () => {
       </section>
 
       {/* Societal Impact Section */}
-      <section className=\"py-20 bg-gray-900\" data-testid=\"societal-impact\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <h2 className=\"text-4xl font-bold text-center mb-12 text-red-600\">Our Mission for Society</h2>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8 mb-16\">\n            <div className=\"bg-black p-8 rounded-lg shadow-lg border-l-4 border-white\">\n              <blockquote className=\"text-gray-300 italic mb-4 text-lg leading-relaxed\">\n                \"If a free society cannot help the many who are poor, it cannot save those few who are rich.\"\n              </blockquote>\n              <cite className=\"text-white font-semibold block text-right\">\n                — John F. Kennedy\n              </cite>\n            </div>\n            \n            <div className=\"bg-black p-8 rounded-lg shadow-lg border-l-4 border-white\">\n              <blockquote className=\"text-gray-300 italic mb-4 text-lg leading-relaxed\">\n                \"The true measure of any society can be found in how it treats its most vulnerable members.\"\n              </blockquote>\n              <cite className=\"text-white font-semibold block text-right\">\n                — Mahatma Gandhi\n              </cite>\n            </div>\n          </div>\n        </div>\n      </section>\n\n      {/* Educational Programs Section */}
+      <section className="py-20 bg-gray-900" data-testid="societal-impact">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Our Mission for Society</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-black p-8 rounded-lg shadow-lg border-l-4 border-white">
+              <blockquote className="text-gray-300 italic mb-4 text-lg leading-relaxed">
+                "If a free society cannot help the many who are poor, it cannot save those few who are rich."
+              </blockquote>
+              <cite className="text-white font-semibold block text-right">
+                — John F. Kennedy
+              </cite>
+            </div>
+            
+            <div className="bg-black p-8 rounded-lg shadow-lg border-l-4 border-white">
+              <blockquote className="text-gray-300 italic mb-4 text-lg leading-relaxed">
+                "The true measure of any society can be found in how it treats its most vulnerable members."
+              </blockquote>
+              <cite className="text-white font-semibold block text-right">
+                — Mahatma Gandhi
+              </cite>
+            </div>
+          </div>
+        </div>
+      </section>\n\n      {/* Educational Programs Section */}
       <section className="py-20 bg-gray-900" data-testid="educational-programs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Educational Programs</h2>
