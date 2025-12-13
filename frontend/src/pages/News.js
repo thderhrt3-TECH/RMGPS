@@ -21,7 +21,6 @@ const News = () => {
             <article className="bg-gray-900 border-2 border-gray-700 rounded-lg overflow-hidden hover:shadow-xl hover:border-white transition">
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-48"></div>
               <div className="p-6">
-                <div className="text-sm text-gray-400 mb-2">December 2025</div>
                 <h3 className="text-xl font-bold text-red-600 mb-3">Complex Construction Update</h3>
                 <p className="text-gray-300 mb-4">
                   Progress continues on our state-of-the-art facility. See the latest developments in our construction timeline.
@@ -34,7 +33,6 @@ const News = () => {
             <article className="bg-gray-900 border-2 border-gray-700 rounded-lg overflow-hidden hover:shadow-xl hover:border-white transition">
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-48"></div>
               <div className="p-6">
-                <div className="text-sm text-gray-400 mb-2">November 2025</div>
                 <h3 className="text-xl font-bold text-red-600 mb-3">Youth Program Launch</h3>
                 <p className="text-gray-300 mb-4">
                   We're excited to announce the launch of our first youth sports programs starting in January 2026.
@@ -47,7 +45,6 @@ const News = () => {
             <article className="bg-gray-900 border-2 border-gray-700 rounded-lg overflow-hidden hover:shadow-xl hover:border-white transition">
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-48"></div>
               <div className="p-6">
-                <div className="text-sm text-gray-400 mb-2">October 2025</div>
                 <h3 className="text-xl font-bold text-red-600 mb-3">Community Partnership</h3>
                 <p className="text-gray-300 mb-4">
                   Local businesses join forces with <span className="text-red-600 italic">RMGPS Complex</span> to support youth development in Heber Valley.
