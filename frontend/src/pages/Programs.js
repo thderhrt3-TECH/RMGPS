@@ -7,7 +7,7 @@ const Programs = () => {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20" data-testid="programs-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6 text-red-600 italic">OUR PROGRAMS</h1>
+          <h1 className="text-5xl font-bold mb-6 text-red-600">Our Programs</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Comprehensive programs designed to develop athletic skills, character, and leadership
           </p>
@@ -17,7 +17,7 @@ const Programs = () => {
       {/* Sports Programs Section */}
       <section className="py-20 bg-black" data-testid="sports-programs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600 italic">SPORTS PROGRAMS</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Sports Programs</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-900 border-2 border-gray-700 p-8 rounded-lg hover:shadow-xl hover:border-white transition" data-testid="program-ice-hockey">
@@ -104,7 +104,7 @@ const Programs = () => {
       {/* Societal Impact Section */}
       <section className="py-20 bg-gray-900" data-testid="societal-impact">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600 italic">OUR MISSION FOR SOCIETY</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Our Mission for Society</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-black p-8 rounded-lg shadow-lg border-l-4 border-white">
