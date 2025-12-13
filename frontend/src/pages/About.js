@@ -31,7 +31,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-96 rounded-lg"></div>
+              <img src="/our-story-image.png" alt="Our Story" className="w-full h-96 object-cover rounded-lg" />
             </div>
           </div>
         </div>
@@ -69,22 +69,8 @@ const About = () => {
           <p className="text-center text-gray-300 mb-12 max-w-3xl mx-auto">
             Our dedicated team of professionals brings decades of experience in sports, education, and community development.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-gray-800 w-48 h-48 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-bold text-red-600">Leadership Team</h3>
-              <p className="text-gray-400">Executive Director</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-800 w-48 h-48 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-bold text-red-600">Coaching Staff</h3>
-              <p className="text-gray-400">Athletic Director</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-800 w-48 h-48 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-bold text-red-600">Board Members</h3>
-              <p className="text-gray-400">Board of Directors</p>
-            </div>
+          <div className="flex justify-center">
+            <img src="/leadership-image.png" alt="Our Leadership" className="max-w-4xl w-full rounded-lg shadow-xl" />
           </div>
         </div>
       </section>
