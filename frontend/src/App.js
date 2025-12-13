@@ -28,6 +28,7 @@ function App() {
             <Link to="/" className="text-gray-300 hover:text-white font-medium">Home</Link>
             <Link to="/about" className="text-gray-300 hover:text-white font-medium">About</Link>
             <Link to="/programs" className="text-gray-300 hover:text-white font-medium">Programs</Link>
+            <Link to="/quotes" className="text-gray-300 hover:text-white font-medium">Quotes</Link>
             <Link to="/get-involved" className="text-gray-300 hover:text-white font-medium">Get Involved</Link>
             <Link to="/news" className="text-gray-300 hover:text-white font-medium">News</Link>
             <Link to="/contact" className="text-gray-300 hover:text-white font-medium">Contact</Link>
