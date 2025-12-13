@@ -74,8 +74,8 @@ const Home = () => {
           <p className="text-lg text-gray-400 mb-4">
             We don't just believe in change—we build it. 
           </p>
-          <p className="text-2xl font-bold text-red-600 mb-8">
-            We've got greatness to build
+          <p className="text-2xl font-bold text-red-600 mb-8 italic">
+            We've got greatness to build...we hope you will join us
           </p>
           
           <div className="bg-gray-900 p-8 rounded-lg shadow-lg border-l-4 border-white text-left">
