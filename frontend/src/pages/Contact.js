@@ -55,10 +55,6 @@ const Contact = () => {
                   <h3 className="font-semibold text-red-600 mb-2">Phone</h3>
                   <p className="text-gray-300">801.360.4323</p>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-red-600 mb-2">Hours</h3>
-                  <p className="text-gray-300">Monday - Friday: 9:00 AM - 5:00 PM<br />Saturday: 10:00 AM - 3:00 PM<br />Sunday: Closed</p>
-                </div>
               </div>
             </div>
 
