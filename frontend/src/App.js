@@ -7,6 +7,7 @@ import Programs from './pages/Programs';
 import GetInvolved from './pages/GetInvolved';
 import News from './pages/News';
 import Contact from './pages/Contact';
+import Quotes from './pages/Quotes';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
