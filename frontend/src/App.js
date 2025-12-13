@@ -57,6 +57,7 @@ function App() {
             <Link to="/" className="block py-2 text-gray-300 hover:text-white">Home</Link>
             <Link to="/about" className="block py-2 text-gray-300 hover:text-white">About</Link>
             <Link to="/programs" className="block py-2 text-gray-300 hover:text-white">Programs</Link>
+            <Link to="/quotes" className="block py-2 text-gray-300 hover:text-white">Quotes</Link>
             <Link to="/get-involved" className="block py-2 text-gray-300 hover:text-white">Get Involved</Link>
             <Link to="/news" className="block py-2 text-gray-300 hover:text-white">News</Link>
             <Link to="/contact" className="block py-2 text-gray-300 hover:text-white">Contact</Link>
