@@ -90,7 +90,35 @@ const About = () => {
       </section>
 
       {/* Thank You Section */}
-      <section className=\"py-20 bg-black\" data-testid=\"thank-you-section\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-4xl font-bold mb-12 text-red-600\">Special Thanks</h2>\n          <p className=\"text-xl text-gray-300 mb-12\">\n            We extend our heartfelt gratitude to the individuals and organizations that have supported our mission:\n          </p>\n          \n          <div className=\"bg-gray-900 p-12 rounded-lg shadow-xl border border-gray-700\">\n            <h3 className=\"text-2xl font-bold text-red-600 mb-6\">Thank You</h3>\n            <div className=\"grid grid-cols-1 md:grid-cols-2 gap-6 text-lg\">\n              <div className=\"space-y-3\">\n                <p className=\"text-white font-semibold\">WASATCH COUNTY CAPS PROGRAM</p>\n                <p className=\"text-gray-300\">SHALAELEE PROBST</p>\n                <p className=\"text-gray-300\">MARTIN DRAYTON</p>\n                <p className=\"text-gray-300\">ERIC RAMIREZ</p>\n                <p className=\"text-gray-300\">ALAN SHURTLIFF</p>\n              </div>\n              <div className=\"space-y-3\">\n                <p className=\"text-gray-300\">BRANDON HILL</p>\n                <p className=\"text-gray-300\">GERALD HEATH</p>\n                <p className=\"text-gray-300\">MICHEAL ANTHONY</p>\n                <p className=\"text-gray-300\">TREY CHRISTY</p>\n                <p className=\"text-gray-300\">ELIZABETH HENDRICKSEN</p>\n                <p className=\"text-gray-300\">RANDI CARLILE</p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </section>\n\n      {/* CTA Section */}
+      <section className="py-20 bg-black" data-testid="thank-you-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold mb-12 text-red-600">Special Thanks</h2>
+          <p className="text-xl text-gray-300 mb-12">
+            We extend our heartfelt gratitude to the individuals and organizations that have supported our mission:
+          </p>
+          
+          <div className="bg-gray-900 p-12 rounded-lg shadow-xl border border-gray-700">
+            <h3 className="text-2xl font-bold text-red-600 mb-6">Thank You</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
+              <div className="space-y-3">
+                <p className="text-white font-semibold">WASATCH COUNTY CAPS PROGRAM</p>
+                <p className="text-gray-300">SHALAELEE PROBST</p>
+                <p className="text-gray-300">MARTIN DRAYTON</p>
+                <p className="text-gray-300">ERIC RAMIREZ</p>
+                <p className="text-gray-300">ALAN SHURTLIFF</p>
+              </div>
+              <div className="space-y-3">
+                <p className="text-gray-300">BRANDON HILL</p>
+                <p className="text-gray-300">GERALD HEATH</p>
+                <p className="text-gray-300">MICHEAL ANTHONY</p>
+                <p className="text-gray-300">TREY CHRISTY</p>
+                <p className="text-gray-300">ELIZABETH HENDRICKSEN</p>
+                <p className="text-gray-300">RANDI CARLILE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>\n\n      {/* CTA Section */}
       <section className="py-20 bg-gray-900 text-white" data-testid="cta-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6 text-red-600">Join Us in Making a Difference</h2>
