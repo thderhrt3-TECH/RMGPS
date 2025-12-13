@@ -9,8 +9,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-6xl md:text-7xl font-bold text-red-600 mb-6">
-              <span className="block italic">Rocky Mountain Global Peace</span>
-              <span className="block text-red-600 italic">& Sports Complex</span>
+              <span className="block italic">ROCKY MOUNTAIN GLOBAL PEACE</span>
+              <span className="block text-red-600 italic">& SPORTS COMPLEX</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
               Our goal is to create a place of refuge where children develop compassion through sports, teamwork, and creativity.
@@ -97,7 +97,7 @@ const Home = () => {
       {/* World-Class Facilities Section */}
       <section className="py-16 bg-gray-900" data-testid="facilities-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-red-600 mb-12">World-Class Facilities</h2>
+          <h2 className="text-4xl font-bold text-center text-red-600 mb-12 italic">WORLD-CLASS FACILITIES</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">

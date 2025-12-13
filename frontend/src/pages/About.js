@@ -7,7 +7,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20" data-testid="about-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6 text-red-600">About Us</h1>
+          <h1 className="text-5xl font-bold mb-6 text-red-600 italic">ABOUT US</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Building bridges between communities through the power of sports and education
           </p>
@@ -19,7 +19,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-red-600">Our Story</h2>
+              <h2 className="text-4xl font-bold mb-6 text-red-600 italic">OUR STORY</h2>
               <p className="text-lg text-gray-300 mb-4">
                 The <span className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex</span> was founded with a vision to create a sanctuary where children from all backgrounds can come together, learn, and grow through the universal language of sports.
               </p>
@@ -40,7 +40,7 @@ const About = () => {
       {/* Values Section */}
       <section className="py-20 bg-gray-900" data-testid="values-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Our Values</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600 italic">OUR VALUES</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-black p-6 rounded-lg shadow-md border-l-4 border-white" data-testid="value-compassion">
               <h3 className="text-xl font-bold text-red-600 mb-3">Compassion</h3>
@@ -65,7 +65,7 @@ const About = () => {
       {/* Leadership Section */}
       <section className="py-20 bg-black" data-testid="leadership-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Our Leadership</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600 italic">OUR LEADERSHIP</h2>
           <p className="text-center text-gray-300 mb-12 max-w-3xl mx-auto">
             Our dedicated team of professionals brings decades of experience in sports, education, and community development.
           </p>
