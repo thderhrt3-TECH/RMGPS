@@ -126,7 +126,9 @@ const Programs = () => {
             </div>
           </div>
         </div>
-      </section>\n\n      {/* Educational Programs Section */}
+      </section>
+
+      {/* Educational Programs Section */}
       <section className="py-20 bg-gray-900" data-testid="educational-programs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Educational Programs</h2>
