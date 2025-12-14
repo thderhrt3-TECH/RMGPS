@@ -106,30 +106,10 @@ const Quotes = () => {
         </div>
       </section>
 
-      {/* Inspirational Quotes */}
-      <section className="py-20 bg-gray-900" data-testid="inspiration-quotes">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-red-600 mb-12">WORDS OF WISDOM</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.Inspiration.map((quote, index) => (
-              <div key={index} className="bg-black p-6 rounded-lg shadow-lg border border-gray-700 hover:border-red-600 transition-colors">
-                <blockquote className="text-gray-300 italic mb-4 leading-relaxed">
-                  "{quote.text}"
-                </blockquote>
-                <cite className="text-red-600 font-semibold block text-right text-sm">
-                  — {quote.author}
-                </cite>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Societal Impact */}
+      {/* Words of Wisdom - JFK and Gandhi Only */}
       <section className="py-20 bg-black" data-testid="society-quotes">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-red-600 mb-12">Our Mission for Society</h2>
+          <h2 className="text-4xl font-bold text-center text-red-600 mb-12">WORDS OF WISDOM</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {categories.Society.map((quote, index) => (
