@@ -30,8 +30,11 @@ const About = () => {
                 We believe that every child deserves the opportunity to discover their potential and make a positive impact on the world.
               </p>
             </div>
-            <div>
-              <img src="/our-story-image.png" alt="Our Story" className="w-full h-96 object-cover rounded-lg" />
+            <div className="bg-gray-800 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-red-600 mb-4">KEEP THE LANGUAGES OF CHANGE</h3>
+              <p className="text-gray-300">
+                At the Rocky Mountain Global Peace & Sports Complex, we believe in the transformative power of two universal languages: sport and music.
+              </p>
             </div>
           </div>
         </div>
@@ -66,42 +69,20 @@ const About = () => {
       <section className="py-20 bg-black" data-testid="leadership-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Our Leadership</h2>
-          <p className="text-center text-gray-300 mb-12 max-w-3xl mx-auto">
-            Our dedicated team of professionals brings decades of experience in sports, education, and community development.
-          </p>
-          <div className="flex justify-center">
-            <img src="/leadership-image.png" alt="Our Leadership" className="max-w-4xl w-full rounded-lg shadow-xl" />
-          </div>
-        </div>
-      </section>
-
-      {/* Thank You Section */}
-      <section className="py-20 bg-black" data-testid="thank-you-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-12 text-red-600">Special Thanks</h2>
-          <p className="text-xl text-gray-300 mb-12">
-            We extend our heartfelt gratitude to the individuals and organizations that have supported our mission:
-          </p>
-          
-          <div className="bg-gray-900 p-12 rounded-lg shadow-xl border border-gray-700">
-            <h3 className="text-2xl font-bold text-red-600 mb-6">Thank You</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
-              <div className="space-y-3">
-                <p className="text-white font-semibold">WASATCH COUNTY CAPS PROGRAM</p>
-                <p className="text-gray-300">SHALAELEE PROBST</p>
-                <p className="text-gray-300">MARTIN DRAYTON</p>
-                <p className="text-gray-300">ERIC RAMIREZ</p>
-                <p className="text-gray-300">ALAN SHURTLIFF</p>
-              </div>
-              <div className="space-y-3">
-                <p className="text-gray-300">BRANDON HILL</p>
-                <p className="text-gray-300">GERALD HEATH</p>
-                <p className="text-gray-300">MICHEAL ANTHONY</p>
-                <p className="text-gray-300">TREY CHRISTY</p>
-                <p className="text-gray-300">ELIZABETH HENDRICKSEN</p>
-                <p className="text-gray-300">RANDI CARLILE</p>
-              </div>
+          <div className="max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold text-red-600 text-center mb-6">BOARD OF DIRECTORS ADVISORY BOARD</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+              <p className="text-white">Randon W. Wilson<br/><span className="text-gray-400 text-sm">Board Chair</span></p>
+              <p className="text-white">Neil Smith</p>
+              <p className="text-white">Lance Allred</p>
+              <p className="text-white">Debra Hickey</p>
+              <p className="text-white">Faith Fields</p>
+              <p className="text-white">Krista Clark</p>
+              <p className="text-white">Patrick Hickey</p>
+              <p className="text-white">Trent Rounkles</p>
+              <p className="text-white">Ryan Shuflin</p>
             </div>
+            <p className="text-center text-white mt-6 text-lg">Laurie Neal<br/><span className="text-gray-400">Executive Director</span></p>
           </div>
         </div>
       </section>\n\n      {/* CTA Section */}
