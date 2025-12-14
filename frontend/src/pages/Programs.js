@@ -8,9 +8,21 @@ const Programs = () => {
       <section className="bg-gray-900 text-white py-20" data-testid="programs-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6 text-red-600">Our Programs</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto mb-8">
             Comprehensive programs designed to develop athletic skills, character, and leadership
           </p>
+          <img src="/image7.png" alt="Programs Overview" className="max-w-5xl mx-auto rounded-lg shadow-xl" />
+        </div>
+      </section>
+
+      {/* Wellness Center Section */}
+      <section className="py-20 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Wellness Center</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <img src="/image1.png" alt="Wellness Center" className="w-full rounded-lg shadow-xl" />
+            <img src="/image3.png" alt="Wellness Facilities" className="w-full rounded-lg shadow-xl" />
+          </div>
         </div>
       </section>
 
