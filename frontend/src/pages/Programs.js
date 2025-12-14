@@ -51,7 +51,7 @@ const Programs = () => {
                 Professional-grade basketball courts hosting leagues, camps, and individual skill development.
               </p>
               <ul className="text-gray-300 space-y-2">
-                <li>• Youth Leagues (Ages TBD)</li>
+                <li>• Youth Leagues</li>
                 <li>• Skills Clinics</li>
                 <li>• Tournament Hosting</li>
                 <li>• Personal Training</li>
@@ -90,8 +90,8 @@ const Programs = () => {
                 Full-field facilities for youth football leagues and training programs.
               </p>
               <ul className="text-gray-300 space-y-2">
-                <li>• Flag Football (Ages TBD)</li>
-                <li>• Tackle Football (Ages TBD)</li>
+                <li>• Flag Football</li>
+                <li>• Tackle Football</li>
                 <li>• Skills Development</li>
                 <li>• Team Camps</li>
               </ul>
