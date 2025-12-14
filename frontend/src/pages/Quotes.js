@@ -48,54 +48,9 @@ const Quotes = () => {
       category: "Economic"
     },
     {
-      text: "Sport has the power to change the world.",
-      author: "Nelson Mandela",
-      category: "Inspiration"
-    },
-    {
-      text: "Music is a way to lift people up even if it's just for a few hours.",
-      author: "Post Malone",
-      category: "Inspiration"
-    },
-    {
-      text: "You miss 100% of the shots you don't take.",
-      author: "Wayne Gretzky",
-      category: "Inspiration"
-    },
-    {
-      text: "We learned about dignity and decency - that how hard you work matters more than how much you make... that helping others means more than just getting ahead yourself.",
-      author: "Michelle Obama",
-      category: "Inspiration"
-    },
-    {
-      text: "Empowering children is the key to a brighter tomorrow.",
-      author: "Michael Jackson, singer, songwriter, grammy winner, philanthropist",
-      category: "Inspiration"
-    },
-    {
-      text: "Music is my therapy: it saves me daily.",
-      author: "Jelly Roll",
-      category: "Inspiration"
-    },
-    {
-      text: "The future belongs to those who believe in the beauty of their dreams.",
-      author: "Eleanor Roosevelt",
-      category: "Inspiration"
-    },
-    {
-      text: "You can't put a limit on anything. The more you dream, the farther you get.",
-      author: "Misty Copeland",
-      category: "Inspiration"
-    },
-    {
-      text: "It's not a faith in technology. It's faith in people.",
-      author: "Steve Jobs",
-      category: "Inspiration"
-    },
-    {
-      text: "Success is not about being the best. It's about always getting better.",
-      author: "Dr Marissa Mayer",
-      category: "Inspiration"
+      text: "removed",
+      author: "removed",
+      category: "removed"
     },
     {
       text: "If a free society cannot help the many who are poor, it cannot save those few who are rich.",
