@@ -186,25 +186,27 @@ const Programs = () => {
             </div>
 
             <div className="bg-black p-8 rounded-lg shadow-md border-l-4 border-white" data-testid="program-music">
-              <h3 className="text-2xl font-bold text-red-600 mb-4">Music & Arts</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">Music, Arts, High Tech Creativity</h3>
               <p className="text-gray-300 mb-4">
-                Creative programs that complement athletic development through music and artistic expression.
+                Creative programs that complement athletic development through music, artistic expression, and cutting-edge technology.
               </p>
               <ul className="text-gray-300 space-y-2">
                 <li>• Music Lessons</li>
                 <li>• Band & Orchestra</li>
                 <li>• Art Classes</li>
                 <li>• Performance Opportunities</li>
+                <li>• Interactive programs to learn cutting-edge digital design</li>
+                <li>• Skill building in innovative areas</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* TBD Section */}
+      {/* Summer Camps Section */}
       <section className="py-20 bg-black" data-testid="summer-camps">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">TBD</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Summer Camps</h2>
           <div className="bg-gray-900 p-12 rounded-lg border-2 border-gray-700">
             <p className="text-xl text-center text-gray-300 mb-8">
               Our comprehensive programs offer children unforgettable experiences combining sports, education, and adventure in the beautiful Heber Valley.
