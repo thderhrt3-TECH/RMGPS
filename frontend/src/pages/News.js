@@ -19,11 +19,11 @@ const News = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* News Article 1 */}
             <article className="bg-gray-900 border-2 border-gray-700 rounded-lg overflow-hidden hover:shadow-xl hover:border-white transition">
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-48"></div>
+              <img src="/image10.png" alt="Construction Rendering" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-red-600 mb-3">Complex Construction Update</h3>
                 <p className="text-gray-300 mb-4">
-                  Progress continues on our state-of-the-art facility. See the latest developments in our construction timeline.
+                  TBD
                 </p>
                 <a href="#" className="text-white font-semibold hover:underline">Read More →</a>
               </div>
@@ -31,11 +31,11 @@ const News = () => {
 
             {/* News Article 2 */}
             <article className="bg-gray-900 border-2 border-gray-700 rounded-lg overflow-hidden hover:shadow-xl hover:border-white transition">
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 h-48"></div>
+              <img src="/image11.jpg" alt="Youth Programs" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-red-600 mb-3">Youth Program Launch</h3>
                 <p className="text-gray-300 mb-4">
-                  We're excited to announce the launch of our first youth sports programs starting in January 2026.
+                  TBD
                 </p>
                 <a href="#" className="text-white font-semibold hover:underline">Read More →</a>
               </div>
@@ -47,7 +47,7 @@ const News = () => {
               <div className="p-6">
                 <h3 className="text-xl font-bold text-red-600 mb-3">Community Partnership</h3>
                 <p className="text-gray-300 mb-4">
-                  Local businesses join forces with <span className="text-red-600 italic">RMGPS Complex</span> to support youth development in Heber Valley.
+                  TBD
                 </p>
                 <a href="#" className="text-white font-semibold hover:underline">Read More →</a>
               </div>
