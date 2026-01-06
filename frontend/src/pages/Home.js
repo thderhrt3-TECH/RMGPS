@@ -122,8 +122,8 @@ const Home = () => {
             </div>
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Equestrian & Therapeutic Programs</h3>
-              <p className="text-gray-300">Professional equestrian training and riding programs</p>
+              <h3 className="text-xl font-bold text-red-600 mb-2">Equestrian Programs</h3>
+              <p className="text-gray-300">Equestrian & Therapeutic Programs</p>
             </div>
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
