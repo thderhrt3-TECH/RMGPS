@@ -17,10 +17,7 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
-            <img src="/logo.png" alt="Rocky Mountain GPS" className="h-12 w-auto" />
-            <div className="flex flex-col min-w-0">
-              <span className="text-lg font-bold text-red-600 truncate italic">Rocky Mountain GPS</span>
-            </div>
+            <img src="/rmgps-logo.png" alt="Rocky Mountain GPS" className="h-16 w-auto" />
           </Link>
           
           {/* Desktop Navigation */}
