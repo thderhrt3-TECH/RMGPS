@@ -66,17 +66,26 @@ const Home = () => {
 
       {/* Languages of Change Section */}
       <section className="py-16 bg-black" data-testid="languages-of-change-section">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-red-600 mb-6">The Languages of Change</h2>
-          <p className="text-xl text-gray-300 mb-4">
-            At the <strong className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex</strong>, we believe in the transformative power of two universal languages: <strong>sport and music</strong>.
-          </p>
-          <p className="text-lg text-gray-400 mb-4">
-            We don't just believe in change—we build it. 
-          </p>
-          <p className="text-2xl font-bold text-red-600 mb-8 italic">
-            We've got greatness to build…we hope you will join us
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-red-600 mb-6 text-center">The Languages of Change</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <p className="text-xl text-gray-300 mb-4">
+                At the <strong className="text-red-600 italic">Rocky Mountain Global Peace & Sports Complex</strong>, we believe in the transformative power of two universal languages: <strong>sport and music</strong>.
+              </p>
+              <p className="text-lg text-gray-400 mb-4">
+                We don't just believe in change—we build it. 
+              </p>
+              <p className="text-2xl font-bold text-red-600 mb-8 italic">
+                We've got greatness to build…we hope you will join us
+              </p>
+            </div>
+            
+            <div>
+              <img src="/facility_rendering.png" alt="Facility Rendering" className="w-full rounded-lg shadow-xl" />
+            </div>
+          </div>
           
           <div className="bg-gray-900 p-8 rounded-lg shadow-lg border-l-4 border-white text-left">
             <p className="text-gray-300 italic mb-4">
