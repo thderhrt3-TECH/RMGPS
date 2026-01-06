@@ -122,13 +122,13 @@ const Home = () => {
             </div>
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Equestrian Center</h3>
+              <h3 className="text-xl font-bold text-red-600 mb-2">Therapeutic Riding Programs</h3>
               <p className="text-gray-300">Professional equestrian training and riding programs</p>
             </div>
             
             <div className="bg-black border border-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl hover:border-gray-500 transition-shadow">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Scenic Trails</h3>
-              <p className="text-gray-300">Open spaces connected by beautiful trail systems</p>
+              <h3 className="text-xl font-bold text-red-600 mb-2">Lots of Open Space</h3>
+              <p className="text-gray-300">An extensive trail system</p>
             </div>
           </div>
           
