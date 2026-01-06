@@ -82,20 +82,6 @@ const Home = () => {
           <p className="text-2xl font-bold text-red-600 mb-8 italic">
             We've got greatness to build…we hope you will join us
           </p>
-          
-          <div className="bg-gray-900 p-8 rounded-lg shadow-lg border-l-4 border-white text-left">
-            <p className="text-gray-300 italic mb-4">
-              "Sport has the power to change the world"
-            </p>
-            <p className="text-right text-white font-semibold">— Nelson Mandela</p>
-          </div>
-          
-          <div className="mt-6 bg-gray-900 p-8 rounded-lg shadow-lg border-l-4 border-white text-left">
-            <p className="text-gray-300 italic mb-4">
-              "Music has healing power. It has the ability to take people out of themselves for a few hours."
-            </p>
-            <p className="text-right text-white font-semibold">— Elton John</p>
-          </div>
         </div>
       </section>
 
