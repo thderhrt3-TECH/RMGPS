@@ -15,9 +15,20 @@ const Home = () => {
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="hero-description">
               Our goal is to create a place of refuge where children develop compassion through sports, teamwork, and creativity.
             </p>
-            <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-12">
+            <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-8">
               Here, they can discover the importance of science, environmental stewardship, and teamwork—taking home skills to shape their futures and impact the world.
             </p>
+            
+            {/* Facility Rendering */}
+            <div className="mb-10">
+              <img 
+                src="/facility-rendering.png" 
+                alt="Rocky Mountain Global Peace & Sports Complex Facility Rendering"
+                className="mx-auto rounded-lg shadow-2xl max-w-4xl w-full"
+                data-testid="facility-rendering"
+              />
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/get-involved#donate" 
