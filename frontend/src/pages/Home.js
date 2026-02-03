@@ -262,7 +262,7 @@ const Home = () => {
               <video 
                 controls 
                 className="w-full rounded-lg shadow-2xl"
-                poster="/facility-rendering.png"
+                poster="/sprung-rendering.png"
                 data-testid="community-video"
               >
                 <source src="/rmgps-video.mp4" type="video/mp4" />
