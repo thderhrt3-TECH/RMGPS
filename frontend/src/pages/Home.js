@@ -153,6 +153,110 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Educational Programs Section */}
+      <section className="py-16 bg-black" data-testid="educational-programs-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-red-600 mb-4">Educational Programs</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Educational, residential, and wellness facilities for complete athlete development
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Charter School */}
+            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-500 transition-colors" data-testid="edu-charter-school">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-red-600 mb-3">Charter School</h3>
+                <p className="text-gray-300 mb-4">
+                  Integrated academic programs that combine traditional education with athletic development.
+                </p>
+                <ul className="text-gray-400 space-y-1 mb-4">
+                  <li>• Core Academic Curriculum</li>
+                  <li>• STEM Programs</li>
+                  <li>• Arts & Music</li>
+                  <li>• Character Education</li>
+                </ul>
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1764025851527-78f9d7c52bc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBjYW1wdXMlMjBidWlsZGluZ3MlMjBlZHVjYXRpb258ZW58MHx8fHwxNzcwMTQ4NjQ2fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                alt="Charter School Campus"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+
+            {/* Mentorship Programs */}
+            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-500 transition-colors" data-testid="edu-mentorship">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-red-600 mb-3">Mentorship Programs</h3>
+                <p className="text-gray-300 mb-4">
+                  Connecting children with positive role models and mentors from diverse backgrounds.
+                </p>
+                <ul className="text-gray-400 space-y-1 mb-4">
+                  <li>• One-on-One Mentoring</li>
+                  <li>• Leadership Development</li>
+                  <li>• Life Skills Workshops</li>
+                  <li>• Career Exploration</li>
+                </ul>
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1758687126375-e2c1683219e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxtZW50b3IlMjBjb2FjaGluZyUyMHlvdXRoJTIwY2hpbGRyZW58ZW58MHx8fHwxNzcwMTQ4NjI1fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                alt="Mentorship Programs"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+
+            {/* Environmental Stewardship */}
+            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-500 transition-colors" data-testid="edu-environmental">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-red-600 mb-3">Environmental Stewardship</h3>
+                <p className="text-gray-300 mb-4">
+                  Outdoor education programs teaching children about nature and environmental responsibility.
+                </p>
+                <ul className="text-gray-400 space-y-1 mb-4">
+                  <li>• Trail Maintenance</li>
+                  <li>• Wildlife Education</li>
+                  <li>• Sustainable Practices</li>
+                  <li>• Outdoor Adventures</li>
+                </ul>
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1605661480059-884578ac8ec8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMHRyYWlsJTIwbmF0dXJlJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc3MDE0ODYzMHww&ixlib=rb-4.1.0&q=85&w=800" 
+                alt="Environmental Stewardship"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+
+            {/* Music, Arts, High Tech Creativity */}
+            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-500 transition-colors" data-testid="edu-music-arts">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-red-600 mb-3">Music, Arts, High Tech Creativity</h3>
+                <p className="text-gray-300 mb-4">
+                  Creative programs that complement athletic development through music, artistic expression, and cutting-edge technology.
+                </p>
+                <ul className="text-gray-400 space-y-1 mb-4">
+                  <li>• Music Lessons</li>
+                  <li>• Band & Orchestra</li>
+                  <li>• Art Classes</li>
+                  <li>• Performance Opportunities</li>
+                </ul>
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1585011565895-0e19b2877bb8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMG11c2ljJTIwdGVjaG5vbG9neSUyMGNyZWF0aXZpdHl8ZW58MHx8fHwxNzcwMTQ4NjM1fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                alt="Music Arts Technology"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+          </div>
+
+          <div className="mt-8 bg-gray-900 p-6 rounded-lg border border-gray-700">
+            <p className="text-gray-300 text-center">
+              <span className="text-red-600 font-semibold">Holistic Development:</span> The complex is designed for complete athlete development—combining education, housing, and wellness in one location. This integration creates a supportive ecosystem that nurtures not just athletic skills but academic achievement and character growth.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Join Our Community Section */}
       <section className="py-16 bg-black text-white" data-testid="get-involved-cta-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
