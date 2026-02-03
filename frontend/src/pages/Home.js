@@ -172,14 +172,11 @@ const Home = () => {
                   Integrated academic programs that combine traditional education with athletic development.
                 </p>
                 <ul className="text-gray-400 space-y-1 mb-4">
-                  <li>• Core Academic Curriculum</li>
-                  <li>• STEM Programs</li>
-                  <li>• Arts & Music</li>
-                  <li>• Character Education</li>
+                  <li>• Core Academic Curriculum: STEM Programs, Arts & Music, Character Education</li>
                 </ul>
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1764025851527-78f9d7c52bc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBjYW1wdXMlMjBidWlsZGluZ3MlMjBlZHVjYXRpb258ZW58MHx8fHwxNzcwMTQ4NjQ2fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                src="/edu-charter-school.png" 
                 alt="Charter School Campus"
                 className="w-full h-48 object-cover"
               />
@@ -200,7 +197,7 @@ const Home = () => {
                 </ul>
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1758687126375-e2c1683219e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxtZW50b3IlMjBjb2FjaGluZyUyMHlvdXRoJTIwY2hpbGRyZW58ZW58MHx8fHwxNzcwMTQ4NjI1fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                src="/edu-mentorship.png" 
                 alt="Mentorship Programs"
                 className="w-full h-48 object-cover"
               />
@@ -221,7 +218,7 @@ const Home = () => {
                 </ul>
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1605661480059-884578ac8ec8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMHRyYWlsJTIwbmF0dXJlJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc3MDE0ODYzMHww&ixlib=rb-4.1.0&q=85&w=800" 
+                src="/edu-environmental.png" 
                 alt="Environmental Stewardship"
                 className="w-full h-48 object-cover"
               />
@@ -242,7 +239,7 @@ const Home = () => {
                 </ul>
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1585011565895-0e19b2877bb8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMG11c2ljJTIwdGVjaG5vbG9neSUyMGNyZWF0aXZpdHl8ZW58MHx8fHwxNzcwMTQ4NjM1fDA&ixlib=rb-4.1.0&q=85&w=800" 
+                src="/edu-music-arts.png" 
                 alt="Music Arts Technology"
                 className="w-full h-48 object-cover"
               />
