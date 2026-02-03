@@ -256,6 +256,21 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-red-600">Join Our Community</h2>
           
+          {/* Video Section */}
+          <div className="mb-12">
+            <div className="max-w-4xl mx-auto">
+              <video 
+                controls 
+                className="w-full rounded-lg shadow-2xl"
+                poster="/facility-rendering.png"
+                data-testid="community-video"
+              >
+                <source src="/rmgps-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-900 p-8 rounded-lg text-center hover:bg-gray-800 transition-colors">
               <h3 className="text-2xl font-bold mb-4 text-red-600">Donate</h3>
